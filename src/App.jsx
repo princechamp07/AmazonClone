@@ -40,7 +40,7 @@ function App() {
     <BrowserRouter>
      
      <Routes>
-        <Route path="/" element={<><Header/> <Home/></>}>
+        <Route path="/AmazonClone/" element={<><Header/> <Home/></>}>
         </Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/checkout" element={<><Header/> <Checkout/></>}></Route>

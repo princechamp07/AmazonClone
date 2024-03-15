@@ -1,12 +1,12 @@
 {
-  "homepage":"http://princechamp07.github.io/Amazon-Clone/",
+  "homepage": "http://princechamp07.github.io/Amazon-Clone/",
   "name": "amazon-clone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
+  "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
